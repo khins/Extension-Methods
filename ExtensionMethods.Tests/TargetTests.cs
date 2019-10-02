@@ -12,7 +12,7 @@ namespace ExtensionMethods.Tests
         public void StandardizedId()
         {
             var obj = new Target("id01");
-            //Assert.AreEqual("ID01", obj.GetStandardizedId());
+            ///Assert.AreEqual("ID01", obj.GetStandardizedId());
         }
     }
 }
