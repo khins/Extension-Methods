@@ -11,8 +11,9 @@ namespace ExtensionMethods.Tests
         [Test]
         public void StandardizedId()
         {
+            // returns to lower on purpose to show failing test
             var obj = new Target("id01");
-            ///Assert.AreEqual("ID01", obj.GetStandardizedId());
+             Assert.AreEqual("ID01", obj.GetStandardizedId());
         }
     }
 }

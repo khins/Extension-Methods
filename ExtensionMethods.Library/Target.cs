@@ -19,6 +19,11 @@
         {
             _id = id;
         }
+
+        public string GetStandardizedId()
+        {
+            return _id.ToLower();
+        }
     }
 
     internal class InternalTarget
